@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.nav-text:hover {
+  color: aqua !important;
+}
+
+.side-color {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+}
+li {
+  list-style: none;
+  color: yellow;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.banner-title {
+  margin-top: 5rem;
+}
+.slide-head-color {
+  color: #e6e6fa;
+}
+
+/* Product */
+.cards {
+  transition: transform 0.5s ease;
+}
+.cards:hover {
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.05);
+}
+.images {
+  aspect-ratio: 1.2;
+}
+.buttons {
+  color: blue;
+  background-color: rgba(55, 75, 185, 0.1);
+  font-weight: 700;
+  border-radius: 5px;
+}
+.buttons:hover {
+  color: white;
+  background-color: #3749bb;
+}
+
+.social {
+  padding: 10px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.head-title {
+  color: black;
+  font-family: "Lobster", cursive;
+  font-size: 3.5em;
+  font-weight: 700;
+}
+.title-card {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  font-weight: 500;
+}
+.chk-button {
+  margin: 2% 25%;
+  background-color: rgba(55, 75, 185, 0.1);
+}
+.chk-button:hover {
+  color: white !important;
+  background-color: #3749bb;
+}
+.hover-content {
+  color: whitesmoke;
+  position: absolute;
+  top: 6rem;
+  left: 0;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgba(42, 42, 42, 0.97);
+  opacity: 0;
+  transition: all 1s;
+  visibility: hidden;
+}
+.img-text {
+  font-size: 20px;
+  padding: 5px;
+}
+.discover {
+  text-decoration: none;
+  font-size: 13px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 25px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.gallery-img{
+  aspect-ratio: 1;
+}
+
+.thumb:hover .hover-content {
+  visibility: visible;
+  opacity: 1;
+}
+.thumb:hover .gallery-img{
+  opacity: .5;
+}
+.discover:hover{
+  background-color: #fff;
+  color: #2a2a2a;
+}
+
+@media only screen and (min-width: 687px) {
+  .carousel-banner-height {
+    height: 31.28rem;
+  }
+}
+@media only screen and (max-width: 686px) {
+  .chk-button {
+    margin: 6px;
+    background-color: rgba(55, 75, 185, 0.1);
+  }
+  .hover-content{
+    width: 90%;
+    margin: auto;
+  }
+}

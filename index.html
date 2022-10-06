@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/c4d2113264.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-lg-5 py-0" href="#">
+            <img
+              class="img-fluid"
+              style="height: 50px"
+              src="images/logo1.jpg"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav fw-bold fs-4">
+              <a
+                class="nav-link active mx-1 nav-text"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+              <a
+                class="nav-link active mx-1 nav-text"
+                aria-current="page"
+                href="#product"
+                >Product</a
+              >
+              <a
+                class="nav-link active mx-1 nav-text"
+                aria-current="page"
+                href="#review"
+                >Review</a
+              >
+              <a
+                class="nav-link active mx-1 nav-text"
+                aria-current="page"
+                href="#contact"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active carousel-banner-height">
+              <div class="row row-cols-lg-2 row-cols-1 gx-0">
+                <div class="col side-color d-lg-block d-none">
+                  <div class="w-50 mx-auto banner-title">
+                    <h3 class="text-center text-light">
+                      Fantech T533 Wired Premium Mouse
+                    </h3>
+                    <div class="mt-4">
+                      <h5 class="fw-bold slide-head-color">Key Features</h5>
+                      <ul class="">
+                        <li>
+                          <i class="fa-solid fa-arrow-right text-light"></i>
+                          Durable and Smooth Click up to 3 Million
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-arrow-right text-light"></i>
+                          Premium Grade Sensor 1200 DPI
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-arrow-right text-light"></i>
+                          Responsive cursor control
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-arrow-right text-light"></i> USB
+                          1.8m cable and Soft scroll
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <img
+                    src="https://static-01.daraz.com.bd/p/4455c51fcc19069198103979eab6c838.jpg"
+                    class="img-fluid"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item carousel-banner-height">
+              <div class="row row-cols-lg-2 row-cols-1 gx-0">
+                <div class="col side-color d-lg-block d-none">
+                  <div class="w-50 mx-auto banner-title">
+                    <h3 class="text-center text-light">
+                      XINJI COBEE C1 Waterproof Watch
+                    </h3>
+                    <div class="mt-4">
+                      <h5 class="fw-bold slide-head-color">Key Features</h5>
+                      <ul class="">
+                        <li>
+                          <i class="fa-solid fa-arrow-right text-light"></i>
+                          1.69" HD (240x280) Display
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-arrow-right text-light"></i>
+                          Health Care Monitoring
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-arrow-right text-light"></i> 260
+                          mAh Battery, Magnetic Charging
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-arrow-right text-light"></i>
+                          5ATM Waterproof
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <img
+                    src="https://extremegadgets.com.bd/wp-content/uploads/2022/10/9a2c693d-8729-476d-b53a-e4b5573b4579-768x768.png"
+                    class="img-fluid"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item carousel-banner-height">
+              <div class="row row-cols-lg-2 row-cols-1 gx-0">
+                <div class="col side-color d-lg-block d-none">
+                  <div class="w-50 mx-auto banner-title">
+                    <h3 class="text-center text-light">
+                      Lenovo HE05 Neckband Bluetooth Earphone
+                    </h3>
+                    <div class="mt-4">
+                      <h5 class="fw-bold slide-head-color">Key Features</h5>
+                      <ul class="">
+                        <li>
+                          <i class="fa-solid fa-arrow-right text-light"></i> 5.0
+                          Bluetooth Version
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-arrow-right text-light"></i> 10m
+                          Transmission Distance
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-arrow-right text-light"></i>
+                          IPX5 Waterproof
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-arrow-right text-light"></i> 8
+                          Hours Working Time
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <img
+                    src="https://static-01.daraz.com.bd/p/2cb7b496c06606d935c4df1475850f8c.jpg"
+                    class="img-fluid"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="container my-5" id="product">
+        <h3 class="text-center mb-4 head-title">Products</h3>
+        <div class="row">
+          <div class="col-md-8 col-lg-8 col-7 gx-1 gx-lg-3">
+            <div
+              class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4 gx-lg-3 gx-1"
+            >
+              <div class="col">
+                <div class="card h-100 cards">
+                  <img
+                    src="https://www.startech.com.bd/image/cache/catalog/mouse/fantech/t533/t533-01-500x500.jpg"
+                    class="card-img-top images"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Fantech T533 Wired Mouse</h5>
+                    <p class="card-text">
+                      Model: T533 <br />
+                      Keys: 3 <br />
+                      Switch Lifecycle: 3 million clicks
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <h5 class="text-center text-danger">
+                      Price: <span class="price">320</span>৳
+                    </h5>
+                    <div class="d-flex justify-content-center">
+                      <button
+                        class="px-lg-4 px-2 buttons addCart border border-0"
+                      >
+                        <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 cards">
+                  <img
+                    src="https://www.startech.com.bd/image/cache/catalog/smart-watch/xinji/cobee-c1/cobee-c1-01-500x500.webp"
+                    class="card-img-top images"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">XINJI COBEE C1 Waterproof Watch</h5>
+                    <p class="card-text">
+                      Display: 1.69 inch TFT HD (240x28)<br />
+                      Memory: 128 MB <br />
+                      Battery: 260 mAh Magnetic Charging
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <h5 class="text-center text-danger">
+                      Price: <span class="price">2550</span>৳
+                    </h5>
+                    <div class="d-flex justify-content-center">
+                      <button
+                        class="px-lg-4 px-2 buttons addCart border border-0"
+                      >
+                        <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 cards">
+                  <img
+                    src="https://www.startech.com.bd/image/cache/catalog/earphone/lenovo/HE05/Lenovo-HE05-Neckband-Bluetooth-Headset-1-500x500.jpg"
+                    class="card-img-top images"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lenovo HE05 Neckband Earphone</h5>
+                    <p class="card-text">
+                      Model: HE05<br />
+                      Bluetooth version: 5.0 <br />
+                      Transmission distance: 10m
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <h5 class="text-center text-danger">
+                      Price: <span class="price">550</span>৳
+                    </h5>
+                    <div class="d-flex justify-content-center">
+                      <button
+                        class="px-lg-4 px-2 buttons addCart border border-0"
+                      >
+                        <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 cards">
+                  <img
+                    src="https://www.startech.com.bd/image/cache/catalog/earphone/samsung/in-ear-fit/in-ear-fit-01-500x500.webp"
+                    class="card-img-top images"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Samsung In-Ear Fit Earphone</h5>
+                    <p class="card-text">
+                      Model: In-Ear Fit <br />
+                      Interface type: 3.5mm <br />
+                      Sensitivity: 98.5 dB/mW (at 1Khz)
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <h5 class="text-center text-danger">
+                      Price: <span class="price">1300</span>৳
+                    </h5>
+                    <div class="d-flex justify-content-center">
+                      <button
+                        class="px-lg-4 px-2 buttons addCart border border-0"
+                      >
+                        <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 cards">
+                  <img
+                    src="https://www.startech.com.bd/image/cache/catalog/mouse/havit/hv-ms689/hv-ms689-01-500x500.jpg"
+                    class="card-img-top images"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Havit HV-MS689 USB Optical Mouse</h5>
+                    <p class="card-text">
+                      Model: HV-MS689 <br />
+                      Cable Length: 1.5m <br />
+                      Resolution: 1200DPI
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <h5 class="text-center text-danger">
+                      Price: <span class="price">250</span>৳
+                    </h5>
+                    <div class="d-flex justify-content-center">
+                      <button
+                        class="px-lg-4 px-2 buttons addCart border border-0"
+                      >
+                        <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 cards">
+                  <img
+                    src="https://www.startech.com.bd/image/cache/catalog/mouse/havit/ms1008/ms1008-01-500x500.jpg"
+                    class="card-img-top images"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Havit MS1008 RGB Backlit Mouse</h5>
+                    <p class="card-text">
+                      Model: MS1008 <br />
+                      Resolution: 800-1200-2400-3200DPI <br />
+                      Number of Buttons: 6
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <h5 class="text-center text-danger">
+                      Price: <span class="price">680</span>৳
+                    </h5>
+                    <div class="d-flex justify-content-center">
+                      <button
+                        class="px-lg-4 px-2 buttons addCart border border-0"
+                      >
+                        <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 cards">
+                  <img
+                    src="https://www.startech.com.bd/image/cache/catalog/router/xiaomi/mi-4c/mi-4c-1-500x500.jpg"
+                    class="card-img-top images"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Xiaomi MI 4C R4CM 4 Antenna Router
+                    </h5>
+                    <p class="card-text">
+                      Model: 4C R4CM <br />
+                      Transmission Rate 300Mbps <br />
+                      Frequency 2.4GHz
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <h5 class="text-center text-danger">
+                      Price: <span class="price">1150</span>৳
+                    </h5>
+                    <div class="d-flex justify-content-center">
+                      <button
+                        class="px-lg-4 px-2 buttons addCart border border-0"
+                      >
+                        <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 cards">
+                  <img
+                    src="https://www.startech.com.bd/image/cache/catalog/cable/fjgear/usb-printer-cable/usb-printer-cable-01-500x500.jpg"
+                    class="card-img-top images"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      FJGEAR 1.5 Meter USB Printer Cable
+                    </h5>
+                    <p class="card-text">
+                      Model: USB Printer Cable <br />
+                      Interface Type: 1x USB Type A Male <br />
+                      Cable Length: 1.5M
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <h5 class="text-center text-danger">
+                      Price: <span class="price">350</span>৳
+                    </h5>
+                    <div class="d-flex justify-content-center">
+                      <button
+                        class="px-lg-4 px-2 buttons addCart border border-0"
+                      >
+                        <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 cards">
+                  <img
+                    src="https://www.startech.com.bd/image/cache/catalog/keyboard/havit/kb510l/kb510l-1-500x500.jpg"
+                    class="card-img-top images"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Havit KB510L Gaming Keyboard</h5>
+                    <p class="card-text">
+                      Model: Havit KB510L <br />
+                      Type: Multi-Function Backlit Gaming <br />
+                      Number of keys: 112,19 Anti-Ghosting Keys
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <h5 class="text-center text-danger">
+                      Price: <span class="price">900</span>৳
+                    </h5>
+                    <div class="d-flex justify-content-center">
+                      <button
+                        class="px-lg-4 px-2 buttons addCart border border-0"
+                      >
+                        <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-lg-4 col-md-4">
+            <div class="card sticky-top">
+              <h3 class="text-center my-auto">My Shopping Cart</h3>
+              <hr class="my-2 border-3" />
+              <h4 class="text-center">
+                Total <i class="fa-brands fa-product-hunt"></i> :
+                <span id="totalProduct">0</span>
+              </h4>
+              <h4 class="text-center">
+                Price <i class="fa-solid fa-sack-dollar"></i> :
+                <span id="price">0</span>৳
+              </h4>
+              <h4 class="text-center">
+                Delivery <i class="fa-solid fa-truck"></i> :
+                <span id="delivery">0</span>৳
+              </h4>
+              <h4 class="text-center">
+                Shipping <i class="fa-solid fa-truck-fast"></i> :
+                <span id="shipping">0</span>৳
+              </h4>
+              <hr class="my-2 border-3" />
+              <h4 class="text-center">
+                Total <i class="fa-solid fa-sack-dollar"></i> :
+                <span id="totalPrice">0</span>৳
+              </h4>
+              <h4 class="text-center">Tax : <span id="tax">0</span>৳</h4>
+              <hr class="my-2 border-3" />
+              <h4 class="text-center">
+                Total Price W/T : <span id="totalPriceWT">0</span>৳
+              </h4>
+              <button
+                type="button"
+                class="chk-button fw-bold rounded-3 fs-3 text-primary border-0"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+                id="modalPrice"
+              >
+                Checkout
+              </button>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                        Checkout Confirmation
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>Total Price is <span id="modelPrice">0</span>৳</h3>
+                      <p>To confirm checkout click Proceed otherwise Close</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        id="proceed"
+                        data-bs-dismiss="modal"
+                      >
+                        Proceed
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container my-5">
+        <h3 class="text-center mb-4 head-title">Upcoming Products</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img
+                src="https://www.startech.com.bd/image/cache/catalog/headphone/havit/h257bt/h2575bt-1-228x228.jpg"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Havit HV-H2575BT Bluetooth Headphone</h5>
+                <p class="card-text">
+                  Model: Havit HV-H2575BT <br />
+                  Connectivity: Bluetooth 3.0 <br />
+                  Distance: 10m <br />
+                  Weight: 159g
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img
+                src="https://www.startech.com.bd/image/cache/catalog/game-pad/sony/ps4-dualshock-4/dualshock-4-g-01-500x500.jpg"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">PS4 Dualshock 4 Wireless Controller</h5>
+                <p class="card-text">
+                  MPN: CUH-ZCT2E <br />
+                  Model: Dualshock 4 <br />
+                  Motion sensors, Stereo headset jack SHARE button, Touch pad
+                  Light bar, Built-in speaker.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img
+                src="https://www.startech.com.bd/image/cache/catalog/watch/xiaomi/haylou-ls02/haylou-ls02-500x500.jpeg"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Xiaomi Haylou LS02 Smart Watch</h5>
+                <p class="card-text">
+                  MPN: 3128298 <br />
+                  Model: Haylou LS02 <br />
+                  12 sports modes 20 days of endurance Intelligent sleep
+                  monitoring Real-time heart rate monitoring.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container my-5" id="review">
+        <h3 class="text-center mb-4 head-title">Product Review</h3>
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-pause="hover"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class="row row-cols-1 row-cols-lg-2 g-lg-4 mx-lg-5 px-lg-5">
+                <div class="col">
+                  <div class="card h-100 d-flex flex-row">
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="https://www.startech.com.bd/image/cache/catalog/mouse/fantech/t533/t533-01-500x500.jpg"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex align-items-center mb-1">
+                        <img
+                          class="img-fluid w-25"
+                          src="images/player-1.png"
+                          alt=""
+                        />
+                        <h5 class="mx-1">Pritam Merchant</h5>
+                      </div>
+                      <p>
+                        "Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Est fugiat nobis quod optio aperiam sequi."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col d-lg-block d-none">
+                  <div class="card h-100 d-flex flex-row">
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="https://www.startech.com.bd/image/cache/catalog/smart-watch/xinji/cobee-c1/cobee-c1-01-500x500.webp"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex align-items-center mb-1">
+                        <img
+                          class="img-fluid w-25"
+                          src="images/player-2.png"
+                          alt=""
+                        />
+                        <h5 class="mx-1">Nafis Muhtasin</h5>
+                      </div>
+                      <p>
+                        "Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Est fugiat nobis quod optio aperiam sequi."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <div class="row row-cols-1 row-cols-lg-2 g-lg-4 mx-lg-5 px-lg-5">
+                <div class="col">
+                  <div class="card h-100 d-flex flex-row">
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="https://www.startech.com.bd/image/cache/catalog/earphone/lenovo/HE05/Lenovo-HE05-Neckband-Bluetooth-Headset-1-500x500.jpg"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex align-items-center mb-1">
+                        <img
+                          class="img-fluid w-25"
+                          src="images/player-3.png"
+                          alt=""
+                        />
+                        <h5 class="mx-1">Shuvo Baidya</h5>
+                      </div>
+                      <p>
+                        "Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Est fugiat nobis quod optio aperiam sequi."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col d-lg-block d-none">
+                  <div class="card h-100 d-flex flex-row">
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="https://www.startech.com.bd/image/cache/catalog/mouse/havit/hv-ms689/hv-ms689-01-500x500.jpg"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex align-items-center mb-1">
+                        <img
+                          class="img-fluid w-25"
+                          src="images/player-4.png"
+                          alt=""
+                        />
+                        <h5 class="mx-1">Syed Mohiuzzaman</h5>
+                      </div>
+                      <p>
+                        "Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Est fugiat nobis quod optio aperiam sequi."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row row-cols-1 row-cols-lg-2 g-lg-4 mx-lg-5 px-lg-5">
+                <div class="col">
+                  <div class="card h-100 d-flex flex-row">
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="https://www.startech.com.bd/image/cache/catalog/earphone/samsung/in-ear-fit/in-ear-fit-01-500x500.webp"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex align-items-center mb-1">
+                        <img
+                          class="img-fluid w-25"
+                          src="images/player-5.png"
+                          alt=""
+                        />
+                        <h5 class="mx-1">Khairul Islam</h5>
+                      </div>
+                      <p>
+                        "Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Est fugiat nobis quod optio aperiam sequi."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col d-lg-block d-none">
+                  <div class="card h-100 d-flex flex-row">
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="https://www.startech.com.bd/image/cache/catalog/router/xiaomi/mi-4c/mi-4c-1-500x500.jpg"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex align-items-center mb-1">
+                        <img
+                          class="img-fluid w-25"
+                          src="images/player-6.png"
+                          alt=""
+                        />
+                        <h5 class="mx-1">Amanat Mahamud</h5>
+                      </div>
+                      <p>
+                        "Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Est fugiat nobis quod optio aperiam sequi."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span aria-hidden="true"
+              ><i class="fa-solid fa-arrow-left text-secondary fs-1"></i
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span aria-hidden="true"
+              ><i class="fa-solid fa-arrow-right text-secondary fs-1"></i
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- Gallery -->
+      <section class="container my-5">
+        <h1 class="text-center mb-4 head-title">Product Gallery</h1>
+
+        <div class="row row-cols-lg-3 row-cols-1 mb-4 mb-lg-0">
+          <div class="col">
+            <div class="thumb position-relative">
+              <img
+                src="https://static-01.daraz.com.bd/p/9ec4c0c4c047cb7480aa490fd251b569.jpg"
+                class="w-100 shadow-1-strong rounded mb-4 gallery-img"
+                alt="..."
+              />
+              <div class="hover-content mx-3 p-2">
+                <h1 class="img-text">Xiaomi MI 4C R4CM 4 Antenna Router</h1>
+                <p>Best Router in Reasonable Price</p>
+                <a class="discover" href="#product">Discover More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="thumb position-relative">
+              <img
+                src="https://static-01.daraz.com.bd/p/b73ff593da47ab99c00f9b08b2d515db.jpg"
+                class="w-100 shadow-1-strong rounded mb-4 gallery-img"
+                alt="..."
+              />
+              <div class="hover-content mx-3 p-2">
+                <h1 class="img-text">Havit KB510L Gaming Keyboard</h1>
+                <p>Best Gaming Keyboard in Reasonable Price</p>
+                <a class="discover" href="#product">Discover More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="thumb position-relative">
+              <img
+                src="https://www.itiotech.com/wp-content/uploads/2022/02/1008-itio-tech.png"
+                class="w-100 shadow-1-strong rounded mb-4 gallery-img img-fluid"
+                alt="..."
+              />
+              <div class="hover-content mx-3 p-2">
+                <h1 class="img-text">Havit MS1008 RGB Backlit Mouse</h1>
+                <p>Best Mouse in Reasonable Price</p>
+                <a class="discover" href="#product">Discover More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="thumb position-relative">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJoCjVVAjtvbnHmVcgP6KqHvDFJI--7qBlkw&usqp=CAU"
+                class="w-100 shadow-1-strong rounded mb-4 gallery-img"
+                alt="..."
+              />
+              <div class="hover-content mx-3 p-2">
+                <h1 class="img-text">Samsung In-Ear Fit Best Earphone</h1>
+                <p>Best Earphone in Reasonable Price</p>
+                <a class="discover" href="#product">Discover More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="thumb position-relative">
+              <img
+                src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img,w_458,h_375/https://exploringproducts.com/wp-content/uploads/2022/07/COBEE-C1-2-458x375.jpg"
+                class="w-100 shadow-1-strong rounded mb-4 gallery-img"
+                alt="..."
+              />
+              <div class="hover-content mx-3 p-2">
+                <h1 class="img-text">XINJI COBEE C1 Waterproof Watch</h1>
+                <p>Best Smart Watch in Reasonable Price</p>
+                <a class="discover" href="#product">Discover More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="thumb position-relative">
+              <img
+                src="https://static-01.daraz.com.bd/p/2cb7b496c06606d935c4df1475850f8c.jpg"
+                class="w-100 shadow-1-strong rounded mb-4 gallery-img"
+                alt="..."
+              />
+              <div class="hover-content mx-3 p-2">
+                <h1 class="img-text">Lenovo HE05 Neckband Earphone</h1>
+                <p>Best Neckband Earphone in Reasonable Price</p>
+                <a class="discover" href="#product">Discover More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container my-5" id="contact">
+        <h1 class="text-center mb-4 head-title">Get in Touch</h1>
+        <div class="container">
+          <div class="row row-cols-lg-2 row-cols-1">
+            <div class="col">
+              <div class="container overflow-hidden text-center">
+                <div class="row g-3 p-3">
+                  <div class="col-lg-6">
+                    <div class="p-3 rounded-3 h-100">
+                      <h1 class="title-card">
+                        <i class="fa-solid fa-location-dot"></i> Address
+                      </h1>
+                      <h6 style="color: #b4161b">Chandgaon,Chittagong</h6>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="p-3 rounded-3 h-100">
+                      <h1 class="title-card">
+                        <i class="fa-solid fa-phone"></i> Phone
+                      </h1>
+                      <h6 style="color: #b4161b">+880 1707877409</h6>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="p-3 rounded-3 h-100">
+                      <h1 class="title-card">
+                        <i class="fa-solid fa-at"></i> Email
+                      </h1>
+                      <h6 style="color: #b4161b">arthida150@gmail.com</h6>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="p-3 rounded-3 h-100">
+                      <h1 class="title-card">
+                        <i class="fa-solid fa-flag"></i> Country
+                      </h1>
+                      <h6 style="color: #b4161b">Bangladesh</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col p-3">
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="floatingPassword"
+                  placeholder="Password"
+                />
+                <label for="floatingPassword">Password</label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea2"
+                  style="height: 100px"
+                ></textarea>
+                <label for="floatingTextarea2">Comments</label>
+              </div>
+              <div class="d-flex justify-content-end">
+                <button
+                  type="button"
+                  class="btn btn-warning title-card"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  <i class="fa-solid fa-paper-plane"></i>Send
+                </button>
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5
+                          class="modal-title title-card"
+                          id="exampleModalLabel"
+                        >
+                          Thank You
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body fw-bold text-dark">
+                        Thank you for your lovely comments. Wish you the best of
+                        luck.
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          OK
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-black">
+      <div class="d-flex justify-content-center">
+        <a
+          target="_blank"
+          class="social"
+          href="https://www.facebook.com/arthi.barua.54"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          target="_blank"
+          class="social"
+          href="https://www.instagram.com/arthi_barua/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a target="_blank" class="social" href="https://github.com/ArthiDa"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+      <p style="color: #ffffff" class="text-center my-0 py-1">
+        Copyright 2022, Delivered by Pranab Barua Arthi, All Rights Reserved
+      </p>
+    </footer>
+    <script src="css/bootstrap.bundle.min.js"></script>
+    <script src="js/cart.js"></script>
+  </body>
+</html>
