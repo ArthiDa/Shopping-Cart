@@ -7,9 +7,9 @@ for (let button of addButton) {
     productPrice = productPrice.innerText;
     productPrice = parseFloat(productPrice);
 
-    let totalProduct = document.getElementById('totalProduct').innerText
+    let totalProduct = document.getElementById("totalProduct").innerText;
     totalProduct = parseInt(totalProduct) + 1;
-    document.getElementById('totalProduct').innerText = totalProduct
+    document.getElementById("totalProduct").innerText = totalProduct;
 
     //Get All Price
     let currentPrice = document.getElementById("price").innerText;
@@ -42,46 +42,46 @@ for (let button of addButton) {
     document.getElementById("shipping").innerText = setShipping;
 
     // Set Total Price
-    let setTotalPrice = setPrice + setDelivery + setShipping
-    document.getElementById('totalPrice').innerText = setTotalPrice
+    let setTotalPrice = setPrice + setDelivery + setShipping;
+    document.getElementById("totalPrice").innerText = setTotalPrice;
 
     // Set Tax
-    let setTax = setTotalPrice * .15;
-    document.getElementById('tax').innerText = setTax
+    let setTax = setTotalPrice * 0.15;
+    document.getElementById("tax").innerText = setTax;
 
     // Set Total Price with Tax
     let setTotalPriceWT = setTotalPrice + setTax;
-    document.getElementById('totalPriceWT').innerText = setTotalPriceWT
-    
+    document.getElementById("totalPriceWT").innerText = setTotalPriceWT;
   });
 }
 function PriceCalculation(productPrice, currentPrice) {
   return productPrice + currentPrice;
 }
 function DeliveryPrice(productPrice, currentDeliveryPrice) {
-  if (productPrice <= 500) return 100 + currentDeliveryPrice;
-  else if (productPrice <= 800) return 150 + currentDeliveryPrice;
+  if (productPrice <= 500) return currentDeliveryPrice;
+  else if (productPrice <= 800) return 100 + currentDeliveryPrice;
+  else if (productPrice <= 1000) return 150 + currentDeliveryPrice;
   else return 200 + currentDeliveryPrice;
 }
 function ShippingPrice(productPrice, currentShippingPrice) {
-  if (productPrice <= 500) return 100 + currentShippingPrice;
-  else if (productPrice <= 800) return 150 + currentShippingPrice;
+  if (productPrice <= 500) return currentShippingPrice;
+  else if (productPrice <= 800) return 100 + currentShippingPrice;
+  else if (productPrice <= 1000) return 150 + currentShippingPrice;
   else return 200 + currentShippingPrice;
 }
 
-document.getElementById('modalPrice').addEventListener('click',function(){
-    let price = document.getElementById('totalPriceWT').innerText
-    document.getElementById('modelPrice').innerText = price
-})
+document.getElementById("modalPrice").addEventListener("click", function () {
+  let price = document.getElementById("totalPriceWT").innerText;
+  document.getElementById("modelPrice").innerText = price;
+});
 
-document.getElementById('proceed').addEventListener('click',function(){
-    document.getElementById("price").innerText = '0'
-    document.getElementById('totalProduct').innerText = '0'
-    document.getElementById('delivery').innerText = '0'
-    document.getElementById('shipping').innerText = '0'
-    document.getElementById('totalPrice').innerText = '0'
-    document.getElementById('tax').innerText = '0'
-    document.getElementById('totalPriceWT').innerText = '0'
-    ocument.getElementById('modelPrice').innerText = '0'
-
-})
+document.getElementById("proceed").addEventListener("click", function () {
+  document.getElementById("price").innerText = "0";
+  document.getElementById("totalProduct").innerText = "0";
+  document.getElementById("delivery").innerText = "0";
+  document.getElementById("shipping").innerText = "0";
+  document.getElementById("totalPrice").innerText = "0";
+  document.getElementById("tax").innerText = "0";
+  document.getElementById("totalPriceWT").innerText = "0";
+  ocument.getElementById("modelPrice").innerText = "0";
+});
