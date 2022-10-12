@@ -34,11 +34,11 @@ for (let button of addButton) {
     document.getElementById("price").innerText = setPrice;
 
     // Set Delivery Price
-    let setDelivery = DeliveryPrice(productPrice, currentDeliveryPrice);
+    let setDelivery = DeliveryShippingPrice(setPrice, currentDeliveryPrice);
     document.getElementById("delivery").innerText = setDelivery;
 
     // Set Shipping Price
-    let setShipping = DeliveryPrice(productPrice, currentShippingPrice);
+    let setShipping = setDelivery;
     document.getElementById("shipping").innerText = setShipping;
 
     // Set Total Price
@@ -57,18 +57,18 @@ for (let button of addButton) {
 function PriceCalculation(productPrice, currentPrice) {
   return productPrice + currentPrice;
 }
-function DeliveryPrice(productPrice, currentDeliveryPrice) {
+function DeliveryShippingPrice(productPrice, currentDeliveryPrice) {
   if (productPrice <= 500) return currentDeliveryPrice;
-  else if (productPrice <= 800) return 100 + currentDeliveryPrice;
-  else if (productPrice <= 1000) return 150 + currentDeliveryPrice;
-  else return 200 + currentDeliveryPrice;
+  else if (productPrice <= 800) return 100;
+  else if (productPrice <= 1000) return 150;
+  else return 200;
 }
-function ShippingPrice(productPrice, currentShippingPrice) {
-  if (productPrice <= 500) return currentShippingPrice;
-  else if (productPrice <= 800) return 100 + currentShippingPrice;
-  else if (productPrice <= 1000) return 150 + currentShippingPrice;
-  else return 200 + currentShippingPrice;
-}
+// function ShippingPrice(productPrice, currentShippingPrice) {
+//   if (productPrice <= 500) return currentShippingPrice;
+//   else if (productPrice <= 800) return 100 + currentShippingPrice;
+//   else if (productPrice <= 1000) return 150 + currentShippingPrice;
+//   else return 200 + currentShippingPrice;
+// }
 
 document.getElementById("modalPrice").addEventListener("click", function () {
   let price = document.getElementById("totalPriceWT").innerText;
@@ -83,5 +83,5 @@ document.getElementById("proceed").addEventListener("click", function () {
   document.getElementById("totalPrice").innerText = "0";
   document.getElementById("tax").innerText = "0";
   document.getElementById("totalPriceWT").innerText = "0";
-  ocument.getElementById("modelPrice").innerText = "0";
+  document.getElementById("modelPrice").innerText = "0";
 });
